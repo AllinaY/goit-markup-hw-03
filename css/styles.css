@@ -108,13 +108,17 @@ span {
   padding: 120px 0;
 }
 
+.visually-hidden {
+  display: none;
+}
+
 .benefits .list {
   display: flex;
   gap: 24px;
 }
 
 .benefits .list-item {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100%-3 * 24px));
 }
 
 .benefits .item {
