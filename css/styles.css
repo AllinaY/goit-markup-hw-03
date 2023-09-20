@@ -188,7 +188,8 @@ img {
 }
 
 .service-list {
-  padding-top: 120px 0 120px 0;
+  padding-top: padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .service-list .header {
@@ -236,6 +237,12 @@ img {
 
 .footer {
   background-color: #2e2f42;
+  padding:100px 0;
+}
+
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer .logo-end {
   color: #f4f4fd;
@@ -245,4 +252,5 @@ img {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
