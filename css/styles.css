@@ -10,8 +10,14 @@ ul {
   list-style: none;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
- margin: 0; 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 .container {
@@ -125,7 +131,7 @@ span {
 }
 
 .visually-hidden {
-   position: absolute;
+  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -135,7 +141,7 @@ span {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  }
+}
 
 .benefits .list {
   display: flex;
@@ -213,7 +219,7 @@ img {
 }
 
 .service-list {
-  padding-top: padding-top: 120px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -235,7 +241,7 @@ img {
 }
 
 .service-list .item {
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .service-list .app-name {
