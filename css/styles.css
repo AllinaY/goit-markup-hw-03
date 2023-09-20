@@ -141,6 +141,7 @@ img {
 
 .our-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .our-team .header {
@@ -150,10 +151,22 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.our-team .list {
+  display: flex;
+  gap: 24px;
 }
 
 .our-team .item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team .name-position {
+  padding: 32px 0;
 }
 
 .our-team .name {
@@ -162,6 +175,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .our-team .paragraf {
@@ -169,6 +184,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 .service-list .header {
