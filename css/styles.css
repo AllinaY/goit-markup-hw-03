@@ -131,9 +131,9 @@ p {
 /* #region hero */
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .hero_container {
-  padding: 188px 0;
 }
 .hero-title {
   font-family: 'Roboto', sans-serif;
@@ -143,7 +143,7 @@ p {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  width: 496px;
+  max-width: 496px;
   height: 120px;
   align-content: center;
   margin: auto;
@@ -159,10 +159,12 @@ p {
   background-color: #4d5ae5;
   cursor: pointer;
   padding: 16 32;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   margin: auto;
   display: block;
+  border: none;
+  border-radius: 4px;
 }
 .hero_button:hover,
 .hero_button:focus {
@@ -171,8 +173,7 @@ p {
 /* #endregion hero */
 /* #region benefits */
 .benefits {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding: 120px 0;
 }
 .benefits_menu {
   display: flex;
