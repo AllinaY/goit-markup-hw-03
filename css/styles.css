@@ -226,12 +226,14 @@ p {
 }
 .our_team_menu_item {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
 }
 .our_team_menu_item_pic {
+  display: block;
 }
 .our_team_menu_item_text {
   width: 232px;
-  padding: 32px 16px;
+  padding: 32px 0;
   align-content: center;
 }
 .our_team_menu_item_name {
